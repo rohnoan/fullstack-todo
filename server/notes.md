@@ -14,3 +14,5 @@ this is a set of guidelines and rules i am going to follow whenever i need to ma
     make another folder routes and define all routes there and only give origin route in entry point with app.use and api/v1/noun
     
 4 mongodb
+    npm i mongodb mongoose
+    add a folder database and error handling for connection of database
