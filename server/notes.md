@@ -16,3 +16,17 @@ this is a set of guidelines and rules i am going to follow whenever i need to ma
 4 mongodb
     npm i mongodb mongoose
     add a folder database and error handling for connection of database
+    call at app.listen in entry point
+
+5 models
+    const xyzSchema=new mongoose.Schema=({
+
+    })
+    export
+
+    when referencing another schema-
+        type:mongoose.schema.types.objectid
+        ref:'user'
+
+6 error handling
+    
