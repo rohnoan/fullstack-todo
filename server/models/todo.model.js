@@ -10,7 +10,7 @@ const todoSchema=new mongoose.Schema({
         type:String,
         required:[true,'title required'],
         trim:true,
-        mingLength:1,
+        minLength:1,
         maxLength:100
     },
     description:{

@@ -28,5 +28,42 @@ this is a set of guidelines and rules i am going to follow whenever i need to ma
         type:mongoose.schema.types.objectid
         ref:'user'
 
-6 error handling
+6 error handling & middleware
+    add new folder middleware
+    three/four parameters - err,req,res,next
+    copy err into new error variable and also the message
+    check for mongoose casterror,mongoose recourse not found,duplicate key error,validation error
+    add standard middlwares
+
+7 auth
     
+8 controllers
+    handle the logic of routes
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+async function fetchUser() {
+    try {
+        const response = await fetch('https://jsonplaceholder.typicode.com/users/1');
+        const data = await response.json();
+        console.log(data);
+    } catch (error) {
+        console.error("Error fetching user:", error);
+    }
+}
+
+fetchUser();
